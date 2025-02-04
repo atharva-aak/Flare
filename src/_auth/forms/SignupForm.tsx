@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input";
 import { SignupValidation } from "@/lib/validation";
-import Loader from "@/components/ui/shared/loader";
+import Loader from "@/components/shared/loader";
 import { Link, useNavigate } from "react-router-dom";
 import { useCreateUserAccount, useSignInAccount } from "@/lib/react-query/queriesAndMutations";
 import { useUserContext } from "@/context/AuthContext";

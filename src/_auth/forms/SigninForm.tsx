@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input";
 import { SigninValidation } from "@/lib/validation";
-import Loader from "@/components/ui/shared/loader";
+import Loader from "@/components/shared/loader";
 import { Link, useNavigate } from "react-router-dom";
 import {  useSignInAccount } from "@/lib/react-query/queriesAndMutations";
 import { useUserContext } from "@/context/AuthContext";
@@ -110,7 +110,7 @@ import { useUserContext } from "@/context/AuthContext";
             <div className="flex-center gap-2">
               <Loader />Loading...
             </div>
-          ):"Sign ip"}
+          ):"Sign in"}
 
           </Button>
 
