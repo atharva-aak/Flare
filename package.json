@@ -13,6 +13,7 @@
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-label": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-toast": "^1.2.5",
     "@tailwindcss/vite": "^4.0.3",
     "appwrite": "^17.0.0",
     "class-variance-authority": "^0.7.1",
