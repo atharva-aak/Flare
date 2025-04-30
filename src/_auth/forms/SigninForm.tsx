@@ -91,6 +91,14 @@ import { useUserContext } from "@/context/AuthContext";
               </FormItem>
             )}
           />
+          <div className="text-right -mt-3 mb-2">
+            <Link
+              to="/forgot-password"
+              className="text-primary-500 text-small-semibold"
+            >
+              Forgot password?
+            </Link>
+          </div>
 
           <FormField
             control={form.control}
@@ -106,17 +114,24 @@ import { useUserContext } from "@/context/AuthContext";
             )}
           />
           <Button type="submit" className="shad-button_primary">
-          {isUserLoading ?(
-            <div className="flex-center gap-2">
-              <Loader />Loading...
-            </div>
-          ):"Sign in"}
-
+            {isUserLoading ? (
+              <div className="flex-center gap-2">
+                <Loader />
+                Loading...
+              </div>
+            ) : (
+              "Sign in"
+            )}
           </Button>
 
           <p className="text-small-regular text-light-2 text-center mt-2">
             Don't have an account?
-            <Link to="/sign-up" className="text-primary-500 text-small-semibold ml-1">Sign up</Link>
+            <Link
+              to="/sign-up"
+              className="text-primary-500 text-small-semibold ml-1"
+            >
+              Sign up
+            </Link>
           </p>
         </form>
       </div>
