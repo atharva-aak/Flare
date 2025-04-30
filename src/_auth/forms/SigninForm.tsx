@@ -96,7 +96,7 @@ import { useUserContext } from "@/context/AuthContext";
               to="/forgot-password"
               className="text-primary-500 text-small-semibold"
             >
-              Forgot password?
+              Forgot passcode?
             </Link>
           </div>
 
